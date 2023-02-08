@@ -11,7 +11,7 @@ const Some = () => {
 	// const [streamDisplay, setStreamDisplay] = useState<MediaStream | null>(null);
 
 	const [recorders, setRecorders] = useState([]);
-	const [stream, setStream] = useStates(null);
+	const [stream, setStream] = useState(null);
 
 	const [displayRecord, setDisplayRecord] = useState();
 	const [streamDisplay, setStreamDisplay] = useState(null);
