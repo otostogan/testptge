@@ -8,7 +8,7 @@ import dropboxV2Api from 'dropbox-v2-api';
 export default function handler(req,res) {
 
 	const dropbox = dropboxV2Api.authenticate({
-		token: "sl.BYeiH0UMSp7vE6wEIl3i7xqfLBnF07vnXOu4gbqVUAvg4HPu9UMZ-n4gd7ClffvYm240gQI3Il_k1vKxwUQsllyv10n8DDNYy5ZUzVAUCC6qaHkgi5z5E5MG9FqQAPp9GOha-Os4vTr7"
+		token: "sl.BYcGX_FcpxHSSShVVwRfKSGkSmeDYAgYA_3TY57-bvbo1G0YMMKCuv40NIha5_nDyjEeaoHpNOLGKokAO3gAFpC8aMe4f_o0DY_8CsYxlzPuZ0jf58EyIJoTDMo3GTL98utvcUctpYI6"
 	});
 
 	const CHUNK_LENGTH = 10 * 1000 * 1000;
